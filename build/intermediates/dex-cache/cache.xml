@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_05de9375094c154a51b03c88f7369e4b40ddc067\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-7.8.0_37dbdd095681b45ded37020f6168b2cffe05a875\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_e293ca0a58b07d5dbd641b36379db4574e5d15e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-7.8.0_fc4d249030b56b08213ae0ee09a36899dbcd0ee3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.1.4_e4802fc062dd2bcb4d992187b6007fa646334b39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_077cdd16f41101fe534857089c94d09f01f20a39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-7.8.0_f58474554a7741d2d61c9a0e1b27a788d4350d0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\libs\ParseFacebookUtilsV4-1.10.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="81f498fa332ac7dff56ccbbef03e3d9f96ff67c8">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\2\ParseFacebookUtilsV4-1.10.1_9f879e5bb6a83674cfcd257cc03937258c81f724\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-7.8.0_d4a0c5e97c6f48c66fd20ebd27731cb998ed64f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\libs\Parse-1.10.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="181b435832725bec96c11ff568bdfbccdacab944">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.10.1_25dbde8ac06ce3a3426c78cf8a35c7851bd51c68\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.0.0_d790b6e4ba1c5bf9d6c06630048bbc419556ddad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-7.8.0_82072d611ce0e606c502a8f9a89075482eae80e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_0f6f77acc2dc186d6f0a8a7730031df9eeacf079\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-7.8.0_9303fd27d9222649a4c68483a5ea9c8e7b1a729f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_4df5dc6286d3e2aeba1eb52786aa5ddc8f8bfb6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-7.8.0_5aaebb821a5f6cd6f3e1d750eab45d0faae33182\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appstate-7.8.0_7d1a09504ec4b18c259aac49ece066b71c706a8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="580c38c75e6900dc243dfdf74d52ccba6d07e21e">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c24cd7d4a5247ee37074beb20d2557cb8818f9f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-7.8.0_9ff961b897237b966d6cec868034a90d13e81a8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="bb0ac3f3ee2d71854501cc28e52cc84a20209b41">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-23.0.0_e24ade5333cdf78be4959ee6e00c2c121db5fb89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-7.8.0_bc80fc516e2fdf7240761a1ebb29eca25308c69d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-7.8.0_0a7c834cee71d37eac1d34eebb6a846b5f16ce00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_5e2887389af4a8325d6ec8c5b2af7c8152452853\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-7.8.0_277ca1a8a11d95588a44cc1995c8bb3787c6d96d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="5d4bccb885c8a89d066ecb6c4addb553a99a79a2">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_a0cf185da661c7e556185bd2416b9abd6009f0b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-7.8.0_3d73071b0daf0d551e4811dfcb94c75939f85ae7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-7.8.0_5f94aa7f312e601df50856ea1bd760bb9e13feca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-22.2.0_ba0187c6d2251c4328dc628f23c69aee7f1b8db7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_648ae7fc2796d6ab00b35ca4a9a13c6c86a5471f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-7.8.0_57251967e7996bc182065c28d57250f2706219e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-7.8.0_d8ebc1a31d2ebc08561de793a5d70a43a59533a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.0.0_ba61386367b648097118e9ba779bd63ce937258d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-7.8.0_f6efcbdbb7b224c23319d0556dcae3343ea6fdb7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_aa8df652d525eab66f09718bed51f05eb2a8a6f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.github.nirhart\parallaxscroll\1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2574796fab3c6145ca6170821badd305f5e03669">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.nirhart-parallaxscroll-1.0_c7dfebc1e3731631f7483874e6fd2a45474cabef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-7.8.0_e6263184dc0f1cd9c204ebd81bb6ef09769bcd6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-7.8.0_4ac054209c06ffe3e4b8fbaa96ce084c33725725\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_13ba8fe0dfbc3e352db9e5c432a7cf58a5a09a14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="04b951bbb1b1ea45da945279047375dbc2aa17dc">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8b5646d0235d2cb7ca27a9073ee75ca3363e68d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-7.8.0_30ecaedf8822c0c5d6bd986defe861a6f4d5208a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\travel\Capstone-Project\Capstone_Stage2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-7.8.0_8a22fdb18610877e538c079f4ccf54d19d289c24\classes.dex" />
+    </item>
+
+</items>
