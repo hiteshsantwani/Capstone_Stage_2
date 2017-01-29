@@ -42,7 +42,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBJPpWzgmnyDnEJHfd4tSH4dTNrKeYYhJs" />
+            android:value="API_KEY" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -100,6 +100,13 @@
         <activity
             android:name="com.mindsparkk.ExpertTravel.Activity.SavedListActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mindsparkk.ExpertTravel.Activity.Chat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mindsparkk.ExpertTravel.Activity.Chat_Room"
+            android:screenOrientation="portrait" />
+        <service android:name=".IntentServices.PlaceList"></service>
 
         <activity
             android:name="com.facebook.FacebookActivity"
@@ -132,6 +139,9 @@
         </receiver>
 
         <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+        <service android:name=".IntentServices.PlaceDetail"
+            android:exported="false"
+            ></service>
 
         <receiver android:name="com.mindsparkk.ExpertTravel.MyAppWidgetProvider" >
             <intent-filter>

@@ -1,6 +1,9 @@
 package com.mindsparkk.ExpertTravel.Activity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -13,6 +16,7 @@ import android.widget.TextView;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.mindsparkk.ExpertTravel.IntentServices.PlaceDetail;
 import com.mindsparkk.ExpertTravel.R;
 import com.mindsparkk.ExpertTravel.app.MainApplication;
 
@@ -35,13 +39,16 @@ public class SelectOptionActivity extends AppCompatActivity {
     FrameLayout frameLayout;
     ImageView back;
     TextView cityname;
-    //please add api_key in manifest and use the context to get value in this class for accessing the end points.
+    private static Context context;
+
+    public SelectOptionActivity() throws PackageManager.NameNotFoundException {
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.select_option_layout);
-
+        SelectOptionActivity.context = getApplicationContext();
         hotels = (LinearLayout) findViewById(R.id.hotels);
         restaurants = (LinearLayout) findViewById(R.id.restaurants);
         shopping = (LinearLayout) findViewById(R.id.shopping);
@@ -50,6 +57,15 @@ public class SelectOptionActivity extends AppCompatActivity {
         frameLayout = (FrameLayout) findViewById(R.id.mainFrame);
         back = (ImageView) findViewById(R.id.back);
         cityname = (TextView) findViewById(R.id.cityname);
+
+        ApplicationInfo ai = null;
+        try {
+            ai = context.getPackageManager().getApplicationInfo(context.getPackageName(), PackageManager.GET_META_DATA);
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        Object API_KEY = (Object)ai.metaData.get("com.google.android.geo.API_KEY");
+        //please add api_key in manifest and use the context to get value in this class for accessing the end points.
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,8 +80,11 @@ public class SelectOptionActivity extends AppCompatActivity {
             cityname.setText(name);
         }
 
-        url = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + placeid + "&key=API_KEY";
-        getPlaceDetail(url);
+        url = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + placeid + "&key="+API_KEY.toString();
+        Intent intent = new Intent(this, PlaceDetail.class);
+        intent.putExtra("url", url);
+        startService(intent);
+        //getPlaceDetail(url);
 
         restaurants.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -128,7 +147,6 @@ public class SelectOptionActivity extends AppCompatActivity {
             @Override
             public void onResponse(JSONObject jsonObject) {
                 try {
-
                     JSONObject movies = jsonObject.getJSONObject(TAG_RESULT);
                     JSONObject geometry = movies.getJSONObject(TAG_GEOMETRY);
                     JSONObject location = geometry.getJSONObject(TAG_LOCATION);

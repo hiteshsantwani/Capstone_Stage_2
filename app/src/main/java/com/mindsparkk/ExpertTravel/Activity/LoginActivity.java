@@ -74,7 +74,7 @@ public class LoginActivity extends AppCompatActivity {
 
         progressDialog = new ProgressDialog(this);
         progressDialog.setIndeterminate(true);
-        progressDialog.setMessage("Verifying Credentials...");
+        progressDialog.setMessage(getString(R.string.VERIFY_CREDENTIALS));
         progressDialog.setCanceledOnTouchOutside(false);
     }
 
@@ -82,12 +82,12 @@ public class LoginActivity extends AppCompatActivity {
 
         progressDialog = new ProgressDialog(this);
         progressDialog.setIndeterminate(true);
-        progressDialog.setMessage("Sending...");
+        progressDialog.setMessage(getString(R.string.sending_progress));
         progressDialog.setCanceledOnTouchOutside(false);
 
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
-        alert.setTitle("Forgot Password");
-        alert.setMessage("Please entered the registered email address to receive the password reset link.");
+        alert.setTitle(getString(R.string.FORGOT_PASS));
+        alert.setMessage(getString(R.string.registered_email_request));
 
         final EditText input = new EditText(LoginActivity.this);
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
@@ -118,7 +118,7 @@ public class LoginActivity extends AppCompatActivity {
                                                 public void done(ParseException e) {
                                                     if (e == null) {
                                                         progressDialog.dismiss();
-                                                        Toast.makeText(LoginActivity.this, "Link sent successfully", Toast.LENGTH_SHORT).show();
+                                                        Toast.makeText(LoginActivity.this, getString(R.string.LINK_SUCCESS), Toast.LENGTH_SHORT).show();
                                                         // An email was successfully sent with reset instructions.
                                                     } else {
                                                         // Something went wrong. Look at the ParseException to see what's up.
@@ -127,19 +127,19 @@ public class LoginActivity extends AppCompatActivity {
                                             });
                                         } else {
                                             progressDialog.dismiss();
-                                            Toast.makeText(LoginActivity.this, "User registered with facebook!", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(LoginActivity.this, getString(R.string.user_registered_facebook), Toast.LENGTH_SHORT).show();
                                         }
                                     }
                                 } else {
                                     progressDialog.dismiss();
-                                    Toast.makeText(LoginActivity.this, "Email id not registered!", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(LoginActivity.this, getString(R.string.EMAIL_NOT_REGISTERED), Toast.LENGTH_SHORT).show();
                                 }
                             }
                         }
                     });
 
                 } else {
-                    Toast.makeText(LoginActivity.this, "Please enter the email address.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, getString(R.string.enter_email_request), Toast.LENGTH_SHORT).show();
                 }
 
 
@@ -196,17 +196,17 @@ public class LoginActivity extends AppCompatActivity {
                                 progressDialog.dismiss();
                                 Toast.makeText(
                                         getApplicationContext(),
-                                        "Wrong username or password",
+                                        getString(R.string.WRONG_USERNAME_AND_PASSWORD),
                                         Toast.LENGTH_LONG).show();
                             }
                         }
                     });
         } else {
             if (usernameTxt.getText().length() == 0) {
-                usernameTxt.setError("Cannot be left blank");
+                usernameTxt.setError(getString(R.string.LEFT_BLANK));
             }
             if (passwordTxt.getText().length() == 0) {
-                passwordTxt.setError("Cannot be left blank");
+                passwordTxt.setError(getString(R.string.LEFT_BLANK));
             }
         }
     }

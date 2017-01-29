@@ -28,6 +28,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.mindsparkk.ExpertTravel.Activity.Chat;
 import com.mindsparkk.ExpertTravel.Activity.SavedListActivity;
 import com.mindsparkk.ExpertTravel.Utils.AdapterNavigation;
 import com.mindsparkk.ExpertTravel.Utils.DatabaseSave;
@@ -145,6 +146,11 @@ public class NavigationDrawerFragment extends Fragment {
                     case 6:
                         showAboutDialog();
                         break;
+                    case 7:
+                        Intent chatIntent = new Intent(getActivity(), Chat.class);
+                        startActivity(chatIntent);
+                        break;
+
                     case 5:
                         showLogoutDialog();
                 }

@@ -64,6 +64,7 @@
                     android:layout_width="250dp"
                     android:layout_height="250dp"
                     android:padding="10dp"
+                    android:contentDescription="MaleIcon"
                     android:src="@drawable/gender_male" />
 
                 <View
@@ -79,6 +80,7 @@
                     android:layout_width="250dp"
                     android:layout_height="250dp"
                     android:padding="10dp"
+                    android:contentDescription="FemaleIcon"
                     android:src="@drawable/gender_female" />
 
             </LinearLayout>

@@ -2,6 +2,7 @@ package com.mindsparkk.ExpertTravel.Utils;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.pm.PackageManager;
 import android.support.v13.app.FragmentStatePagerAdapter;
 
 import com.mindsparkk.ExpertTravel.RestaurantsFragments.Bakery;
@@ -33,7 +34,12 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
                 Bakery bakery = new Bakery();
                 return bakery;
             case 2:
-                Cafe cafe = new Cafe();
+                Cafe cafe = null;
+                try {
+                    cafe = new Cafe();
+                } catch (PackageManager.NameNotFoundException e) {
+                    e.printStackTrace();
+                }
                 return cafe;
             case 3:
                 Liquor liquor = new Liquor();

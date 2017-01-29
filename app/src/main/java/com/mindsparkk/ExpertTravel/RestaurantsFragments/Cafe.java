@@ -1,6 +1,9 @@
 package com.mindsparkk.ExpertTravel.RestaurantsFragments;
 
 import android.app.Fragment;
+import android.content.Context;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -25,6 +28,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.facebook.FacebookSdk.getApplicationContext;
+
 /**
  * Created by Hitesh on 06/09/15.
  */
@@ -44,6 +49,14 @@ public class Cafe extends Fragment {
     private RecyclerView recyclerView;
     private Double latitude, longitude;
     private String place_type;
+    Context context = getApplicationContext();
+
+    ApplicationInfo ai = context.getPackageManager().getApplicationInfo(context.getPackageName(), PackageManager.GET_META_DATA);
+    Object API_KEY = (Object)ai.metaData.get("com.google.android.geo.API_KEY");
+
+    public Cafe() throws PackageManager.NameNotFoundException {
+    }
+    //please add api_key in manifest and use the context to get value in this class for accessing the end points.
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -71,7 +84,7 @@ public class Cafe extends Fragment {
         sb.append("&types=cafe");
         sb.append("&sensor=true");
         sb.append("&radius=5000");
-        sb.append("&key=API_KEY");
+        sb.append("&key="+API_KEY.toString());
 
         getPlaceList(sb.toString());
         return v;

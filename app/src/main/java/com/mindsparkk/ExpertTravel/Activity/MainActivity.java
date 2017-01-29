@@ -138,6 +138,7 @@ public class MainActivity extends AppCompatActivity
                 @Override
                 public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                     final PlaceAutocompleteAdapter.PlaceAutocomplete item = mAdapter.getItem(i);
+
                     final String placeId = String.valueOf(item.placeId);
 
                     Intent i1 = new Intent(getActivity(), SelectOptionActivity.class);

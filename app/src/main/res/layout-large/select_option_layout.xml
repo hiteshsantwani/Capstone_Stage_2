@@ -32,6 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
+                android:contentDescription="BackImage"
                 android:src="@drawable/ic_back" />
 
             <com.mindsparkk.ExpertTravel.Utils.MyBoldTextView
@@ -71,6 +72,7 @@
                     android:layout_height="55dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
+                    android:contentDescription="LocationIcon"
                     android:background="@drawable/ic_location" />
 
                 <TextView
@@ -106,6 +108,7 @@
                     android:layout_height="55dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
+                    android:contentDescription="HotelIcon"
                     android:background="@drawable/ic_hotel" />
 
                 <TextView
@@ -141,6 +144,7 @@
                     android:layout_height="55dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
+                    android:contentDescription="FoodIcon"
                     android:background="@drawable/ic_food" />
 
                 <TextView
@@ -176,6 +180,7 @@
                     android:layout_height="55dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
+                    android:contentDescription="CabIcon"
                     android:background="@drawable/ic_cab" />
 
                 <TextView
@@ -211,6 +216,7 @@
                     android:layout_height="55dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
+                    android:contentDescription="FlightsIcon"
                     android:background="@drawable/ic_flights" />
 
                 <TextView

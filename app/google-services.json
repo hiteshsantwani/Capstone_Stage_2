@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "450702315574",
+    "firebase_url": "https://capstonestage2-b1894.firebaseio.com",
+    "project_id": "capstonestage2-b1894",
+    "storage_bucket": "capstonestage2-b1894.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450702315574:android:b77ebaa4a1ec1e2c",
+        "android_client_info": {
+          "package_name": "com.mindsparkk.ExpertTravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450702315574-0n43p5vbfqqko6ruprrge6e6997rha25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindsparkk.ExpertTravel",
+            "certificate_hash": "82DCB3FF460C1D3ABD2E9AC32EC0A1182F18AC51"
+          }
+        },
+        {
+          "client_id": "450702315574-14pv3j0tqjpperaq4qndf6on00903c0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb6lnWNFiY64j398XLZ3dHiZw3zfVOrik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450702315574-14pv3j0tqjpperaq4qndf6on00903c0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

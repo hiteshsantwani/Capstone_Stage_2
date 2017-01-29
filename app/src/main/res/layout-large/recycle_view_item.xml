@@ -19,6 +19,7 @@
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:background="#bfbfbf"
+            android:contentDescription="PlacePic"
             android:scaleType="centerCrop" />
 
         <RelativeLayout

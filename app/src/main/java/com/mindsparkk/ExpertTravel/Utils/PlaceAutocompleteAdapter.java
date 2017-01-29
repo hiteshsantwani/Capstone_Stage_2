@@ -1,6 +1,8 @@
 package com.mindsparkk.ExpertTravel.Utils;
 
 import android.content.Context;
+import android.text.style.AbsoluteSizeSpan;
+import android.text.style.CharacterStyle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Filter;
@@ -52,6 +54,7 @@ public class PlaceAutocompleteAdapter
      *
      * @see android.widget.ArrayAdapter#ArrayAdapter(android.content.Context, int)
      */
+    private CharacterStyle cs = new AbsoluteSizeSpan(10);
     public PlaceAutocompleteAdapter(Context context, int resource, GoogleApiClient googleApiClient,
                                     LatLngBounds bounds, AutocompleteFilter filter) {
         super(context, resource);
@@ -157,7 +160,7 @@ public class PlaceAutocompleteAdapter
                 AutocompletePrediction prediction = iterator.next();
                 // Get the details of this prediction and copy it into a new PlaceAutocomplete object.
                 resultList.add(new PlaceAutocomplete(prediction.getPlaceId(),
-                        prediction.getDescription()));
+                        prediction.getFullText(cs)));
             }
 
             // Release the buffer now that all data has been copied.

@@ -1,5 +1,9 @@
 package com.mindsparkk.ExpertTravel.Activity;
 
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +20,8 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+import com.mindsparkk.ExpertTravel.IntentServices.PlaceDetail;
+import com.mindsparkk.ExpertTravel.IntentServices.PlaceList;
 import com.mindsparkk.ExpertTravel.R;
 import com.mindsparkk.ExpertTravel.Utils.PlaceListAdapter;
 import com.mindsparkk.ExpertTravel.Utils.PlaceListDetail;
@@ -48,6 +54,8 @@ public class ShoppingActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private Double latitude, longitude;
     FloatingActionButton category;
+    private static Context context;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,15 +100,27 @@ public class ShoppingActivity extends AppCompatActivity {
         placeListAdapter = new PlaceListAdapter(this, placeListDetailList, 4);
         recyclerView.setAdapter(placeListAdapter);
 
+        ShoppingActivity.context = getApplicationContext();
+        ApplicationInfo ai = null;
+        try {
+            ai = context.getPackageManager().getApplicationInfo(context.getPackageName(), PackageManager.GET_META_DATA);
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        Object API_KEY = (Object)ai.metaData.get("com.google.android.geo.API_KEY");
+
         StringBuilder sb = new StringBuilder(
                 "https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
         sb.append("location=" + latitude + "," + longitude);
         sb.append("&types=shopping_mall");
         sb.append("&radius=30000");
         sb.append("&rankby=prominence");
-        sb.append("&key=API_KEY");
+        sb.append("&key="+API_KEY.toString());
 
-        getPlaceList(sb.toString());
+        Intent intent = new Intent(this, PlaceList.class);
+        intent.putExtra("url", sb.toString());
+        startService(intent);
+        //getPlaceList(sb.toString());
 
     }
 

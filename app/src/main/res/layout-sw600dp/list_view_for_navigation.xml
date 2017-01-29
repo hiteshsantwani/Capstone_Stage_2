@@ -17,6 +17,7 @@
             android:id="@+id/icon_navigationlist"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
+            android:contentDescription="NavigationListIcon"
             android:layout_gravity="center_vertical" />
 
         <TextView

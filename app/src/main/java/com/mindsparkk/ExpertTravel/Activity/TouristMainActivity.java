@@ -1,6 +1,9 @@
 package com.mindsparkk.ExpertTravel.Activity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -50,6 +53,8 @@ public class TouristMainActivity extends AppCompatActivity {
     private Double latitude, longitude;
     FloatingActionButton category;
     AdView mAdView1;
+    private static Context context;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,13 +98,22 @@ public class TouristMainActivity extends AppCompatActivity {
         placeListAdapter = new PlaceListAdapter(this, placeListDetailList, 1);
         recyclerView.setAdapter(placeListAdapter);
 
+        TouristMainActivity.context = getApplicationContext();
+        ApplicationInfo ai = null;
+        try {
+            ai = context.getPackageManager().getApplicationInfo(context.getPackageName(), PackageManager.GET_META_DATA);
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        Object API_KEY = (Object)ai.metaData.get("com.google.android.geo.API_KEY");
+
         StringBuilder sb = new StringBuilder(
                 "https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
         sb.append("location=" + latitude + "," + longitude);
         sb.append("&types=places_of_interest|establishment");
         sb.append("&radius=30000");
         sb.append("&rankby=prominence");
-        sb.append("&key=API_KEY");
+        sb.append("&key="+API_KEY.toString());
 
         getPlaceList(sb.toString());
 
