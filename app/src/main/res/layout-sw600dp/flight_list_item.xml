@@ -21,7 +21,7 @@
             <ImageView
                 android:id="@+id/flight_icon"
                 android:layout_width="wrap_content"
-                android:contentDescription="FlightIcon"
+                android:contentDescription="@string/FlightIcon_label"
                 android:layout_height="wrap_content"/>
 
             <LinearLayout
@@ -95,7 +95,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="3dp"
                     android:layout_marginRight="3dp"
-                    android:text="-" />
+                    android:text="@string/hyphen" />
 
                 <TextView
                     android:id="@+id/tTime"

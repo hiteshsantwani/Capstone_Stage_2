@@ -54,6 +54,35 @@
     <string name="WRONG_USERNAME_AND_PASSWORD">Wrong username or password</string>
     <string name="LEFT_BLANK">Cannot be left blank</string>
     <string name="enter_email_request">Please enter the email address.</string>
+    <string name="down">Down Button</string>
+    <string name="save_button">Save Button</string>
+    <string name="search_label">Search</string>
+    <string name="send_label">Send</string>
+    <string name="WelcomeScreen_label">WelcomeScreen</string>
+    <string name="NavigationListIcon_label">NavigationListIcon</string>
+    <string name="PlacePic">PlacePic</string>
+    <string name="FlightIcon_label">FlightIcon</string>
+    <string name="flighticon_label">FlightIcon</string>
+    <string name="add_room_label">Add room</string>
+    <string name="backimage_label">BackImage</string>
+    <string name="place_poster_label">PlacePoster</string>
+    <string name="delhi_india_label">Delhi, India</string>
+    <string name="shareimage_label">ShareImage</string>
+    <string name="username_label">Username</string>
+    <string name="maleicon_label">MaleIcon</string>
+    <string name="locationicon_label">LocationIcon</string>
+    <string name="password_label">Password</string>
+    <string name="femaleicon_label">FemaleIcon</string>
+    <string name="hotelicon_label">HotelIcon</string>
+    <string name="Phone_Icon_label">PhoneIcon</string>
+    <string name="full_name_label">Full Name</string>
+    <string name="foodicon_label">FoodIcon</string>
+    <string name="email_address_label">Email Address</string>
+    <string name="websiteicon_label">WebsiteIcon</string>
+    <string name="cabicon_label">CabIcon</string>
+    <string name="reviewicon_label">ReviewIcon</string>
+    <string name="flightsicon_label">FlightsIcon</string>
+    <string name="hyphen">-</string>
     <string-array name="options">
         <item></item>
         <item>Saved Places</item>

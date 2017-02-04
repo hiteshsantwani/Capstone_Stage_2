@@ -15,6 +15,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.mindsparkk.ExpertTravel.Activity.MainActivity;
+import com.mindsparkk.ExpertTravel.Utils.DatabaseSave;
 import com.mindsparkk.ExpertTravel.app.MainApplication;
 
 import org.json.JSONException;
@@ -40,7 +41,7 @@ public class MyAppWidgetProvider extends AppWidgetProvider {
 
             view = new RemoteViews(context.getPackageName(), R.layout.appwidget);
 
-            Cursor data = null;//new DatabaseSave(context).getSavedHotels();
+            Cursor data = (Cursor) new DatabaseSave(context).getAllPlaces();
             if (data.moveToFirst()) {
 
                 do {

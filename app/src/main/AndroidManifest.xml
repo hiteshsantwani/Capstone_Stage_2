@@ -104,7 +104,7 @@
             android:name="com.mindsparkk.ExpertTravel.Activity.Chat"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.mindsparkk.ExpertTravel.Activity.Chat_Room"
+            android:name="com.mindsparkk.ExpertTravel.Activity.ChatRoom"
             android:screenOrientation="portrait" />
         <service android:name=".IntentServices.PlaceList"></service>
 

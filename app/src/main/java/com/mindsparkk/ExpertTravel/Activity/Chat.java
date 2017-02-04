@@ -33,8 +33,8 @@ import java.util.Set;
 
 public class Chat extends AppCompatActivity {
 
-    private Button add_room;
-    private EditText room_name;
+    private Button addRoom;
+    private EditText roomName;
 
     private ListView listView;
     private ArrayAdapter<String> arrayAdapter;
@@ -47,22 +47,22 @@ public class Chat extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
-        add_room = (Button) findViewById(R.id.btn_add_room);
-        room_name = (EditText) findViewById(R.id.room_name_edittext);
+        addRoom = (Button) findViewById(R.id.btn_add_room);
+        roomName = (EditText) findViewById(R.id.room_name_edittext);
         listView = (ListView) findViewById(R.id.listView);
 
         arrayAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,list_of_rooms);
 
         listView.setAdapter(arrayAdapter);
 
-        request_user_name();
+        requestUserName();
 
-        add_room.setOnClickListener(new View.OnClickListener() {
+        addRoom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Map<String,Object> map = new HashMap<String, Object>();
-                map.put(room_name.getText().toString(),"");
+                map.put(roomName.getText().toString(),"");
                 root.updateChildren(map);
 
             }
@@ -95,16 +95,16 @@ public class Chat extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-                Intent intent = new Intent(getApplicationContext(),Chat_Room.class);
-                intent.putExtra("room_name",((TextView)view).getText().toString() );
-                intent.putExtra("user_name",name);
+                Intent intent = new Intent(getApplicationContext(),ChatRoom.class);
+                intent.putExtra("roomName",((TextView)view).getText().toString() );
+                intent.putExtra("userName",name);
                 startActivity(intent);
             }
         });
 
     }
 
-    private void request_user_name() {
+    private void requestUserName() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Enter name:");
 
@@ -122,7 +122,7 @@ public class Chat extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.cancel();
-                request_user_name();
+                requestUserName();
             }
         });
 

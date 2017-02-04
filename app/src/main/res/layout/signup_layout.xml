@@ -64,7 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:contentDescription="MaleIcon"
+                    android:contentDescription="@string/maleicon_label"
                     android:src="@drawable/gender_male" />
 
                 <View
@@ -80,7 +80,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:contentDescription="FemaleIcon"
+                    android:contentDescription="@string/femaleicon_label"
                     android:src="@drawable/gender_female" />
 
             </LinearLayout>
@@ -120,7 +120,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/r"
-                        android:hint="Username"
+                        android:hint="@string/username_label"
                         android:paddingBottom="10dp"
                         android:paddingTop="10dp"
                         android:textCursorDrawable="@color/colorPrimary"
@@ -141,7 +141,7 @@
                         android:id="@+id/nameTxt"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Full Name"
+                        android:hint="@string/full_name_label"
                         android:inputType="textCapWords"
                         android:paddingBottom="10dp"
                         android:paddingTop="10dp"
@@ -163,7 +163,7 @@
                         android:id="@+id/emailTxt"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Email Address"
+                        android:hint="@string/email_address_label"
                         android:inputType="textEmailAddress"
                         android:paddingBottom="10dp"
                         android:paddingTop="10dp"
@@ -185,7 +185,7 @@
                         android:id="@+id/passwordTxt"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Password"
+                        android:hint="@string/password_label"
                         android:inputType="textPassword"
                         android:paddingBottom="10dp"
                         android:paddingTop="10dp"

@@ -32,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:contentDescription="PlacePoster"
+                android:contentDescription="@string/place_poster_label"
                 android:src="@drawable/ic_back" />
 
             <com.mindsparkk.ExpertTravel.Utils.MyBoldTextView
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Delhi, India"
+                android:text="@string/delhi_india_label"
                 android:textColor="#fff"
                 android:textSize="28sp" />
 
@@ -72,7 +72,7 @@
                     android:layout_height="55dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
-                    android:contentDescription="LocationIcon"
+                    android:contentDescription="@string/locationicon_label"
                     android:background="@drawable/ic_location" />
 
                 <TextView
@@ -108,7 +108,7 @@
                     android:layout_height="55dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
-                    android:contentDescription="HotelIcon"
+                    android:contentDescription="@string/hotelicon_label"
                     android:background="@drawable/ic_hotel" />
 
                 <TextView
@@ -144,7 +144,7 @@
                     android:layout_height="55dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
-                    android:contentDescription="FoodIcon"
+                    android:contentDescription="@string/foodicon_label"
                     android:background="@drawable/ic_food" />
 
                 <TextView
@@ -180,7 +180,7 @@
                     android:layout_height="55dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
-                    android:contentDescription="CabIcon"
+                    android:contentDescription="@string/cabicon_label"
                     android:background="@drawable/ic_cab" />
 
                 <TextView
@@ -216,7 +216,7 @@
                     android:layout_height="55dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
-                    android:contentDescription="FlightsIcon"
+                    android:contentDescription="@string/FlightIcon_label"
                     android:background="@drawable/ic_flights" />
 
                 <TextView
