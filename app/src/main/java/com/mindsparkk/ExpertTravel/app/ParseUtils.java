@@ -17,6 +17,7 @@ import com.parse.SaveCallback;
  * Created by Hitesh on 11/07/15.
  */
 public class ParseUtils {
+    public static final String emailTag = "email";
 
     private static String TAG = ParseUtils.class.getSimpleName();
 
@@ -27,7 +28,7 @@ public class ParseUtils {
         }
     }
 
-    public static void registerParse(Context context) {
+    public static void registerParse(final Context context) {
         // initializing parse library
         Parse.initialize(context, AppConfig.PARSE_APPLICATION_ID, AppConfig.PARSE_CLIENT_KEY);
         ParseInstallation.getCurrentInstallation().saveInBackground();
@@ -35,7 +36,7 @@ public class ParseUtils {
         ParsePush.subscribeInBackground(AppConfig.PARSE_CHANNEL, new SaveCallback() {
             @Override
             public void done(ParseException e) {
-                Log.e(TAG, "Successfully subscribed to Parse!");
+                Log.e(TAG, context.getString(R.string.successfullySubscribedParseTag));
             }
         });
 
@@ -45,7 +46,7 @@ public class ParseUtils {
     public static void subscribeWithEmail(String email) {
         ParseInstallation installation = ParseInstallation.getCurrentInstallation();
 
-        installation.put("email", email);
+        installation.put(emailTag, email);
 
         installation.saveInBackground();
     }

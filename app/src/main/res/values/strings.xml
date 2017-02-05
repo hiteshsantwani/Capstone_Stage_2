@@ -125,6 +125,7 @@
     <string name="CANCELbuttonTag">CANCEL</string>
     <string name="aboutUsDescriptionTag">Mumbai based travel consultancy, please contact us at  +91-22-40045-50045</string>
     <string name="aboutUsTag">About us</string>
+    <string name="successfullySubscribedParseTag">Successfully subscribed to Parse!</string>
     <string-array name="options">
         <item></item>
         <item>Saved Places</item>
