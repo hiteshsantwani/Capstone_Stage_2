@@ -162,7 +162,7 @@ public class HotelListActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Tracker t = ((MainApplication) getApplicationContext()).getTracker(MainApplication.TrackerName.APP_TRACKER);
-        t.setScreenName("Hotel Screen");
+        t.setScreenName(getString(R.string.HotelScreenTag));
         t.send(new HitBuilders.AppViewBuilder().build());
     }
 }

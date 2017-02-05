@@ -71,7 +71,7 @@ public class SignUpActivity extends AppCompatActivity {
 
         d = new ProgressDialog(this);
         d.setIndeterminate(true);
-        d.setMessage("Creating Account...");
+        d.setMessage(getString(R.string.creatingAccountTag));
         d.setCanceledOnTouchOutside(false);
 
         //to go to previous view.........................................
@@ -82,7 +82,7 @@ public class SignUpActivity extends AppCompatActivity {
                 switcher.setAnimation(AnimationUtils.makeInAnimation
                         (getBaseContext(), true));
                 switcher.showPrevious();
-                signuptitle.setText("Sign up just 2 steps away.");
+                signuptitle.setText(R.string.signUpMessageTag);
             }
         });
 
@@ -92,7 +92,7 @@ public class SignUpActivity extends AppCompatActivity {
             public void onClick(View v) {
                 female.setVisibility(View.GONE);
                 v1.setVisibility(View.GONE);
-                gender.setText("I'm MALE");
+                gender.setText(R.string.iAmMaleTag);
                 selected_gender = "Male";
                 nextView();
 
@@ -105,7 +105,7 @@ public class SignUpActivity extends AppCompatActivity {
             public void onClick(View v) {
                 male.setVisibility(View.GONE);
                 v1.setVisibility(View.GONE);
-                gender.setText("I'm FEMALE");
+                gender.setText(R.string.iAmFemaleTag);
                 selected_gender = "Female";
                 nextView();
 
@@ -155,7 +155,7 @@ public class SignUpActivity extends AppCompatActivity {
                 switcher.setAnimation(AnimationUtils.makeInAnimation
                         (getBaseContext(), true));
                 switcher.showNext();
-                signuptitle.setText("You are just 1 step away.");
+                signuptitle.setText(R.string.oneStepMsg);
             }
         }, 600);
     }
@@ -172,7 +172,7 @@ public class SignUpActivity extends AppCompatActivity {
 
             if (!isValidEmail(email)) {
                 d.dismiss();
-                emailTxt.setError("Enter a valid E-mail.");
+                emailTxt.setError(getString(R.string.validEmailMsg));
             } else {
 
                 ParseUser user = new ParseUser();
@@ -193,11 +193,11 @@ public class SignUpActivity extends AppCompatActivity {
                         } else {
                             d.dismiss();
                             if (e.getCode() == 203) {
-                                emailTxt.setError("Email Address already registered.");
+                                emailTxt.setError(getString(R.string.emailRegisteredMsg));
                                 d.dismiss();
                             }
                             if (e.getCode() == 202) {
-                                usernameTxt.setError("Username already taken.");
+                                usernameTxt.setError(getString(R.string.usernameAlreadyTaken));
                                 d.dismiss();
                             }
                             // Log.d("error", e.getMessage() + e.getCode());
@@ -207,16 +207,16 @@ public class SignUpActivity extends AppCompatActivity {
             }
         } else {
             if (usernameTxt.getText().length() == 0) {
-                usernameTxt.setError("Mandatory Field");
+                usernameTxt.setError(getString(R.string.mandatoryFieldTag));
             }
             if (nameTxt.getText().length() == 0) {
-                nameTxt.setError("Mandatory Field");
+                nameTxt.setError(getString(R.string.mandatoryFieldTag));
             }
             if (passwordTxt.getText().length() == 0) {
-                passwordTxt.setError("Mandatory Field");
+                passwordTxt.setError(getString(R.string.mandatoryFieldTag));
             }
             if (emailTxt.getText().length() == 0) {
-                emailTxt.setError("Mandatory Field");
+                emailTxt.setError(getString(R.string.mandatoryFieldTag));
             }
         }
     }

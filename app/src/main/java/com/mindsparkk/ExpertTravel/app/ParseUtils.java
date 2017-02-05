@@ -6,6 +6,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.mindsparkk.ExpertTravel.R;
 import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseInstallation;
@@ -21,7 +22,7 @@ public class ParseUtils {
 
     public static void verifyParseConfiguration(Context context) {
         if (TextUtils.isEmpty(AppConfig.PARSE_APPLICATION_ID) || TextUtils.isEmpty(AppConfig.PARSE_CLIENT_KEY)) {
-            Toast.makeText(context, "Please configure your Parse Application ID and Client Key in AppConfig.java", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, R.string.parseApplicationIdRequest, Toast.LENGTH_LONG).show();
             ((Activity) context).finish();
         }
     }

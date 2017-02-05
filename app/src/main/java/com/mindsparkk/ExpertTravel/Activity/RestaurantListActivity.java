@@ -69,7 +69,7 @@ public class RestaurantListActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Tracker t = ((MainApplication) getApplicationContext()).getTracker(MainApplication.TrackerName.APP_TRACKER);
-        t.setScreenName("Restaurant Screen");
+        t.setScreenName(getString(R.string.restaurantScreenTag));
         t.send(new HitBuilders.AppViewBuilder().build());
     }
 

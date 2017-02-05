@@ -56,10 +56,10 @@ public class AdapterNavigation extends ArrayAdapter<String> {
             holder.name = (TextView) convertView.findViewById(R.id.name);
             holder.email = (TextView) convertView.findViewById(R.id.email);
             if (user != null) {
-                holder.name.setText(user.getString("name"));
+                holder.name.setText(user.getString(ctx.getString(R.string.nameOfUser)));
                 holder.email.setText(user.getEmail());
             } else {
-                holder.name.setText("Guest User");
+                holder.name.setText(R.string.guestUser);
             }
 
         } else {

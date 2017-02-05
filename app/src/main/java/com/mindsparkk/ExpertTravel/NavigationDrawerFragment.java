@@ -169,17 +169,17 @@ public class NavigationDrawerFragment extends Fragment {
     public void showLogoutDialog() {
 
         AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
-        alert.setTitle("Logout"); //Set Alert dialog title here
-        alert.setMessage("Do you want to log out ?");
+        alert.setTitle(getString(R.string.logoutTag)); //Set Alert dialog title here
+        alert.setMessage(getString(R.string.logOutQuestionTag));
 
-        alert.setPositiveButton("LOGOUT", new DialogInterface.OnClickListener() {
+        alert.setPositiveButton(getString(R.string.LOGOUTbuttonTag), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
 
                 ParseUser.logOut();
             }
         });
 
-        alert.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
+        alert.setNegativeButton(getString(R.string.CANCELbuttonTag), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
                 dialog.cancel();
             }
@@ -205,8 +205,8 @@ public class NavigationDrawerFragment extends Fragment {
 
     public void showAboutDialog(){
         AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
-        alert.setTitle("About us"); //Set Alert dialog title here
-        alert.setMessage("Mumbai based travel consultancy, please contact us at  +91-22-40045-50045");
+        alert.setTitle(getString(R.string.aboutUsTag)); //Set Alert dialog title here
+        alert.setMessage(getString(R.string.aboutUsDescriptionTag));
         logger.info("in side about method");
         alert.setNegativeButton("ok", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {

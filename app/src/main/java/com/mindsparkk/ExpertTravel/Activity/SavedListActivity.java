@@ -1,6 +1,8 @@
 package com.mindsparkk.ExpertTravel.Activity;
 
 import android.os.Bundle;
+import android.support.v4.app.LoaderManager;
+import android.support.v4.content.Loader;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -13,6 +15,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+import com.mindsparkk.ExpertTravel.Loader.SQLiteDataLoader;
 import com.mindsparkk.ExpertTravel.R;
 import com.mindsparkk.ExpertTravel.Utils.DatabaseSave;
 import com.mindsparkk.ExpertTravel.Utils.PlaceListAdapter;
@@ -30,24 +33,23 @@ import java.util.List;
 /**
  * Created by Hitesh on 11/09/15.
  */
-public class SavedListActivity extends AppCompatActivity {
+public class SavedListActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<String >> {
 
     TextView title, nodata;
-    DatabaseSave db;
-
+    DatabaseSave db = new DatabaseSave(this);
+    String mode;
     private PlaceListAdapter placeListAdapter;
     private List<PlaceListDetail> placeListDetailList = new ArrayList<>();
     private static final String TAG_RESULT = "result";
     private static final String TAG_PHOTOS_REFERENCE = "photo_reference";
     ProgressWheel progressWheel;
     private RecyclerView recyclerView;
+    List<String> loadedData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.saved_list_layout);
-
-        db = new DatabaseSave(this);
 
         progressWheel = (ProgressWheel) findViewById(R.id.progress_wheel);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
@@ -66,25 +68,24 @@ public class SavedListActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("");
-
+        getSupportActionBar().setTitle(R.string.savedDataTag);
+        String mode = getIntent().getStringExtra("mode");
+        this.mode = mode;
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
             }
         });
-
-        String mode = getIntent().getStringExtra("mode");
+        this.getSupportLoaderManager().initLoader(R.id.string_loader_id, null, this);
         switch (mode) {
             case "place":
-                title.setText("Saved Places");
-
+                title.setText(R.string.savedPlacesTag);
                 placeListAdapter = new PlaceListAdapter(this, placeListDetailList, 1);
                 recyclerView.setAdapter(placeListAdapter);
 
-                if (db.getAllPlaces() != null) {
-                    for (String id : db.getAllPlaces()) {
+                if (loadedData != null && loadedData.size() > 0) {
+                    for (String id : loadedData) {
                         String url = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + id + "&key=API_KEY";
                         getPlaceDetail(url);
                     }
@@ -96,13 +97,13 @@ public class SavedListActivity extends AppCompatActivity {
                 break;
 
             case "restaurant":
-                title.setText("Saved Restaurant");
+                title.setText(R.string.savedRestaurantTag);
 
                 placeListAdapter = new PlaceListAdapter(this, placeListDetailList, 1);
                 recyclerView.setAdapter(placeListAdapter);
 
-                if (db.getAllRes().size() > 0) {
-                for (String id : db.getAllRes()) {
+                if (loadedData != null && loadedData.size() > 0) {
+                for (String id : loadedData) {
                     String url = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + id + "&key=API_KEY";
                     getPlaceDetail(url);
                 }
@@ -114,13 +115,13 @@ public class SavedListActivity extends AppCompatActivity {
             break;
 
             case "hotel":
-                title.setText("Saved Hotels");
+                title.setText(R.string.savedHotelTag);
 
                 placeListAdapter = new PlaceListAdapter(this, placeListDetailList, 1);
                 recyclerView.setAdapter(placeListAdapter);
 
-                if (db.getAllHotels().size() > 0) {
-                    for (String id : db.getAllHotels()) {
+                if (loadedData != null && loadedData.size() > 0) {
+                    for (String id : loadedData) {
                         String url = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + id + "&key=API_KEY";
                         getPlaceDetail(url);
                     }
@@ -181,7 +182,22 @@ public class SavedListActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Tracker t = ((MainApplication) getApplicationContext()).getTracker(MainApplication.TrackerName.APP_TRACKER);
-        t.setScreenName("Saved Places Screen");
+        t.setScreenName(getString(R.string.savedPlacesScreenTag));
         t.send(new HitBuilders.AppViewBuilder().build());
+    }
+
+    @Override
+    public Loader<List<String>> onCreateLoader(int id, Bundle args) {
+        return new SQLiteDataLoader(getApplicationContext(), db, mode);
+    }
+
+    @Override
+    public void onLoadFinished(Loader<List<String>> loader, List<String> data) {
+        loadedData = data;
+    }
+
+    @Override
+    public void onLoaderReset(Loader<List<String>> loader) {
+        loader.deliverResult(loadedData);
     }
 }

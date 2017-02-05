@@ -177,11 +177,11 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
 
                         if (!db.getPlaces(place_id)) {
                             saveImage.setImageResource(R.drawable.favourite_icon_red);
-                            saveText.setText("SAVED");
+                            saveText.setText(R.string.saved_tag);
                             saveText.setTextColor(Color.RED);
                             db.addPlaces(place_id);
                         } else {
-                            Snackbar.make(view, "Already Added", Snackbar.LENGTH_SHORT).show();
+                            Snackbar.make(view, R.string.alreadyAdded_tag, Snackbar.LENGTH_SHORT).show();
                         }
                         break;
 
@@ -189,11 +189,11 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
 
                         if (!db.gethotel(place_id)) {
                             saveImage.setImageResource(R.drawable.favourite_icon_red);
-                            saveText.setText("SAVED");
+                            saveText.setText(R.string.saved_tag);
                             saveText.setTextColor(Color.RED);
                             db.addHotels(place_id);
                         } else {
-                            Snackbar.make(view, "Already Added", Snackbar.LENGTH_SHORT).show();
+                            Snackbar.make(view, R.string.alreadyAdded_tag, Snackbar.LENGTH_SHORT).show();
                         }
                         break;
 
@@ -201,22 +201,22 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
 
                         if (!db.getRes(place_id)) {
                             saveImage.setImageResource(R.drawable.favourite_icon_red);
-                            saveText.setText("SAVED");
+                            saveText.setText(R.string.saved_tag);
                             saveText.setTextColor(Color.RED);
                             db.addRestaurants(place_id);
                         } else {
-                            Snackbar.make(view, "Already Added", Snackbar.LENGTH_SHORT).show();
+                            Snackbar.make(view, R.string.alreadyAdded_tag, Snackbar.LENGTH_SHORT).show();
                         }
                         break;
 
                     case 4:
                         if (!db.getPlaces(place_id)) {
                             saveImage.setImageResource(R.drawable.favourite_icon_red);
-                            saveText.setText("SAVED");
+                            saveText.setText(R.string.saved_tag);
                             saveText.setTextColor(Color.RED);
                             db.addPlaces(place_id);
                         } else {
-                            Snackbar.make(view, "Already Added", Snackbar.LENGTH_SHORT).show();
+                            Snackbar.make(view, R.string.alreadyAdded_tag, Snackbar.LENGTH_SHORT).show();
                         }
                         break;
                 }
@@ -230,7 +230,7 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
                 Intent sharingIntent = new Intent(Intent.ACTION_SEND);
                 sharingIntent.setType("text/plain");
                 sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT,
-                        "Download ExpertTravel to help plan your trips perfectly.");
+                        getString(R.string.downloadRequest_Tag));
                 startActivity(Intent.createChooser(sharingIntent,
                         "Share using"));
             }
@@ -280,7 +280,7 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
                     lng = Double.parseDouble(location.getString(TAG_LNG));
 
                     double rate = list.getDouble(TAG_TOTAL_RATING);
-                    rating.setText(rate + " user ratings");
+                    rating.setText(rate + getString(R.string.userRatingTag));
 
                     if (list.has(TAG_OPENING_HOURS)) {
                         JSONObject opening_hours = list.getJSONObject(TAG_OPENING_HOURS);
@@ -328,7 +328,7 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
 
     public void setMap(double lat, double lng) {
         LatLng sydney = new LatLng(lat, lng);
-        googleMap.addMarker(new MarkerOptions().position(sydney).title("Here"));
+        googleMap.addMarker(new MarkerOptions().position(sydney).title(getString(R.string.hereTag)));
         googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(lat, lng), 12.0f));
     }
 
@@ -358,7 +358,7 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
     protected void onResume() {
         super.onResume();
         Tracker t = ((MainApplication) getApplicationContext()).getTracker(MainApplication.TrackerName.APP_TRACKER);
-        t.setScreenName("Place Detail Screen");
+        t.setScreenName(getString(R.string.placeDetailTag));
         t.send(new HitBuilders.AppViewBuilder().build());
     }
 }

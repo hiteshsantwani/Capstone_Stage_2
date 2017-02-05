@@ -182,7 +182,7 @@ public class ShoppingActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Tracker t = ((MainApplication) getApplicationContext()).getTracker(MainApplication.TrackerName.APP_TRACKER);
-        t.setScreenName("Shopping Screen");
+        t.setScreenName(getString(R.string.shoppingScreenTag));
         t.send(new HitBuilders.AppViewBuilder().build());
     }
 }

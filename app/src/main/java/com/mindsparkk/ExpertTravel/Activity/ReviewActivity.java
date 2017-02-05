@@ -104,7 +104,7 @@ public class ReviewActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Tracker t = ((MainApplication) getApplicationContext()).getTracker(MainApplication.TrackerName.APP_TRACKER);
-        t.setScreenName("Review Screen");
+        t.setScreenName(getString(R.string.reviewScreenTag));
         t.send(new HitBuilders.AppViewBuilder().build());
     }
 }

@@ -33,7 +33,7 @@ public class TouristPlaceListActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
         nametitle = (TextView) findViewById(R.id.name);
-        nametitle.setText("Tourist Spots");
+        nametitle.setText(R.string.TouristSpotTag);
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -73,7 +73,7 @@ public class TouristPlaceListActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Tracker t = ((MainApplication) getApplicationContext()).getTracker(MainApplication.TrackerName.APP_TRACKER);
-        t.setScreenName("Toursit Places Category-wise");
+        t.setScreenName(getString(R.string.TouristPlaceTag));
         t.send(new HitBuilders.AppViewBuilder().build());
     }
 }

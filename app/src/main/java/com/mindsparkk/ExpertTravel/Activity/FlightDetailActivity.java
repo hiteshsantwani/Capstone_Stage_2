@@ -146,7 +146,7 @@ public class FlightDetailActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Tracker t = ((MainApplication) getApplicationContext()).getTracker(MainApplication.TrackerName.APP_TRACKER);
-        t.setScreenName("Flight Detail Screen");
+        t.setScreenName(getString(R.string.FlightDetailTag));
         t.send(new HitBuilders.AppViewBuilder().build());
     }
 }

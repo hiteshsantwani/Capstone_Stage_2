@@ -78,7 +78,7 @@ public class FlightListAdapter extends RecyclerView.Adapter<FlightListAdapter.Vi
         viewHolder.stime.setText(stime.get(i));
         viewHolder.ttime.setText(time.get(i));
         viewHolder.flight.setText(flight.get(i));
-        viewHolder.terminal.setText("Departure Terminal : " + termnal.get(i));
+        viewHolder.terminal.setText(context.getString(R.string.DepatureTerminalTag) + termnal.get(i));
 
         viewHolder.flight_icon.setImageDrawable(getIcon(i));
 

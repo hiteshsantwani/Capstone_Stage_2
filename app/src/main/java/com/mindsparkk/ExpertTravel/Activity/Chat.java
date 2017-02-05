@@ -106,7 +106,7 @@ public class Chat extends AppCompatActivity {
 
     private void requestUserName() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Enter name:");
+        builder.setTitle(getString(R.string.nameRequest));
 
         final EditText input_field = new EditText(this);
 

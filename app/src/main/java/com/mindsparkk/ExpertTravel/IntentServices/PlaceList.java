@@ -10,7 +10,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.mindsparkk.ExpertTravel.Utils.PlaceListAdapter;
 import com.mindsparkk.ExpertTravel.Utils.PlaceListDetail;
-import com.mindsparkk.ExpertTravel.Utils.ProgressWheel;
 import com.mindsparkk.ExpertTravel.app.MainApplication;
 
 import org.json.JSONArray;
@@ -36,7 +35,6 @@ public class PlaceList extends IntentService {
     private static final String TAG_ADDRESS = "vicinity";
     private static final String TAG_PHOTOS = "photos";
     private static final String TAG_PHOTOS_REFERENCE = "photo_reference";
-    ProgressWheel progressWheel;
     private RecyclerView recyclerView;
     private Double latitude, longitude;
     String url;
@@ -50,7 +48,6 @@ public class PlaceList extends IntentService {
         JsonObjectRequest placeReq = new JsonObjectRequest(url, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject jsonObject) {
-                progressWheel.stopSpinning();
 
                 try {
                     JSONArray list = jsonObject.getJSONArray(TAG_RESULT);
@@ -89,7 +86,6 @@ public class PlaceList extends IntentService {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                placeListAdapter.notifyDataSetChanged();
             }
         }, new Response.ErrorListener() {
             @Override

@@ -187,7 +187,7 @@ public class TouristMainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Tracker t = ((MainApplication) getApplicationContext()).getTracker(MainApplication.TrackerName.APP_TRACKER);
-        t.setScreenName("Tourist Places Screen");
+        t.setScreenName(getString(R.string.touristPlaceScreenTag));
         t.send(new HitBuilders.AppViewBuilder().build());
     }
 }

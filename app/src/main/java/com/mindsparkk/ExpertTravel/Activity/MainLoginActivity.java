@@ -139,7 +139,7 @@ public class MainLoginActivity extends AppCompatActivity {
 
         final ProgressDialog d = new ProgressDialog(this);
         d.setIndeterminate(true);
-        d.setMessage("Verifying Credentials....");
+        d.setMessage(getString(R.string.VerifyCredentialMsg));
         d.setCanceledOnTouchOutside(false);
         d.show();
 

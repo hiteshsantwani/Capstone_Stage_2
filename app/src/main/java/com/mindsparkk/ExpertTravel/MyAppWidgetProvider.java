@@ -7,6 +7,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
+import android.database.MatrixCursor;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.RemoteViews;
@@ -20,6 +21,8 @@ import com.mindsparkk.ExpertTravel.app.MainApplication;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 /**
  * Created by Hitesh on 15/09/15.
@@ -40,16 +43,18 @@ public class MyAppWidgetProvider extends AppWidgetProvider {
         for (int widgetId : allWidgetIds) {
 
             view = new RemoteViews(context.getPackageName(), R.layout.appwidget);
+            ArrayList<String> dataList = (ArrayList<String>) new DatabaseSave(context).getAllPlaces();
 
-            Cursor data = (Cursor) new DatabaseSave(context).getAllPlaces();
-            if (data.moveToFirst()) {
+            String dataArray[] = dataList.toArray(new String[dataList.size()]);
+            MatrixCursor menuCursor = new MatrixCursor(dataArray);
+            if (menuCursor.moveToFirst()) {
 
                 do {
-                    Log.v("--", "FOUND FROM DB:" + data.getString(1));
-                    String url = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + data.getString(1) + "&key=API_KEY";
+                    Log.v("--", "FOUND FROM DB:" + menuCursor.getString(1));
+                    String url = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + menuCursor.getString(1) + "&key=API_KEY";
                     place_name = getPlaceDetail(url);
 
-                } while (data.moveToNext());
+                } while (menuCursor.moveToNext());
             }
 
             view.setTextViewText(R.id.place_name, place_name);

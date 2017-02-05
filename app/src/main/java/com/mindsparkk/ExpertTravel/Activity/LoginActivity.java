@@ -222,7 +222,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Tracker t = ((MainApplication) getApplicationContext()).getTracker(MainApplication.TrackerName.APP_TRACKER);
-        t.setScreenName("Login Screen");
+        t.setScreenName(getString(R.string.LoginScreen));
         t.send(new HitBuilders.AppViewBuilder().build());
     }
 }
