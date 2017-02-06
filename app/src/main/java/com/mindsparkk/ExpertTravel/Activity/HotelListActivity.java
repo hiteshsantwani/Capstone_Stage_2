@@ -1,5 +1,8 @@
 package com.mindsparkk.ExpertTravel.Activity;
 
+import android.content.Context;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -69,6 +72,18 @@ public class HotelListActivity extends AppCompatActivity {
             }
         });
 
+        Context context;
+        context = getApplicationContext();
+        ApplicationInfo ai = null;
+        try {
+            ai = context.getPackageManager().getApplicationInfo(context.getPackageName(), PackageManager.GET_META_DATA);
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        Object API_KEY = (Object)ai.metaData.get("com.google.android.geo.API_KEY");
+        //please add api_key in manifest and use the context to get value in this class for accessing the end points.
+
+
         AdView mAdView1 = (AdView) findViewById(R.id.adView1);
 
         AdRequest adRequest = new AdRequest.Builder().addTestDevice("297E3429DC050C49908F854D208438C7")
@@ -99,7 +114,7 @@ public class HotelListActivity extends AppCompatActivity {
         sb.append("&types=lodging");
         sb.append("&radius=5000");
         sb.append("&rankby=prominence");
-        sb.append("&key=API_KEY");
+        sb.append("&key="+ API_KEY.toString());
 
         getPlaceList(sb.toString());
 

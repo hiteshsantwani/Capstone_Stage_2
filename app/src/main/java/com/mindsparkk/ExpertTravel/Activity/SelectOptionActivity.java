@@ -84,7 +84,7 @@ public class SelectOptionActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PlaceDetail.class);
         intent.putExtra("url", url);
         startService(intent);
-        //getPlaceDetail(url);
+        getPlaceDetail(url);
 
         restaurants.setOnClickListener(new View.OnClickListener() {
             @Override

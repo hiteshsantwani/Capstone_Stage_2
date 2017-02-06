@@ -1,7 +1,9 @@
 package com.mindsparkk.ExpertTravel.Activity;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.net.Uri;
@@ -110,6 +112,16 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
         rating = (TextView) findViewById(R.id.rating);
         card2 = (CardView) findViewById(R.id.card2);
         card3 = (CardView) findViewById(R.id.card3);
+        Context context;
+        context = getApplicationContext();
+        ApplicationInfo ai = null;
+        try {
+            ai = context.getPackageManager().getApplicationInfo(context.getPackageName(), PackageManager.GET_META_DATA);
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        Object API_KEY = (Object)ai.metaData.get("com.google.android.geo.API_KEY");
+        //please add api_key in manifest and use the context to get value in this class for accessing the end points.
 
         CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setOnTouchListener(new View.OnTouchListener() {
@@ -121,11 +133,10 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
 
         fm = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         fm.getMapAsync(this);
-//        googleMap = fm.getMap();
 
         final String place_id = getIntent().getStringExtra("place_id");
         choice = getIntent().getIntExtra("choice", 0);
-        String url = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + place_id + "&key=API_KEY";
+        String url = "https://maps.googleapis.com/maps/api/place/details/json?placeid=" + place_id + "&key=" + API_KEY.toString();
 
         Log.d("place_id", place_id);
         getPlaceDetail(url);
@@ -152,9 +163,9 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
         website.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(website + ""));
-                startActivity(intent);
+//                Intent intent = new Intent(Intent.ACTION_VIEW);
+//                intent.setData(Uri.parse(website + ""));
+//                startActivity(intent);
             }
         });
 
@@ -334,6 +345,7 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnMapReady
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
+        this.googleMap = googleMap;
     }
 
     public void setPhotos() {

@@ -96,7 +96,7 @@ public class MainLoginActivity extends AppCompatActivity {
 
     public void onLoginClick(View v) {
         final ProgressDialog d = new ProgressDialog(this);
-        d.setMessage("Verifying Credentials...");
+        d.setMessage(getString(R.string.verifyCredentialsTag));
         d.setIndeterminate(true);
         d.setCanceledOnTouchOutside(false);
         d.show();

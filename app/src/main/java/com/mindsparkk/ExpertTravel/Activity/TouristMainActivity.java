@@ -86,8 +86,8 @@ public class TouristMainActivity extends AppCompatActivity {
         progressWheel.spin();
 
         if (getIntent().getExtras() != null) {
-            latitude = getIntent().getDoubleExtra("lat", 0.0);
-            longitude = getIntent().getDoubleExtra("lng", 0.0);
+            latitude = getIntent().getDoubleExtra("lat", 28.7041);
+            longitude = getIntent().getDoubleExtra("lng", 77.1025);
         }
 
         int columnCount = 1;

@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_cb7b1da75a956c18f2dc37b7c68af7094c7c8882\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -21,12 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\libs\volley.jar"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_069244101430d9f0474de23e8d33fed23cff8cad\classes.dex" />
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_2fcb4a8d04367c2b9deb94f8115a961694779cbf\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,6 +48,240 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_f2366f7856e909f46c5cc262d917281c27968ebc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_07fc2ab5150e76a06bd956d4a98f499bdfcbd2f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_c6f01cb09073ab9b2775653c5949674899823f0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_fa9c351b5cac9e265b7190dbe00af18dc4e60080\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_d6fb10967908d8bac2056746d0ac8ba981d270e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_f5ada2e6f0236568a86cb75dda0a06cf23651f00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_d553ceaa6563848ad56ebcfc047328d6d14fa5d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="079d438292bfe61f58e83417157621074c5151e7">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_01a80a57288462df51d922e68dbbfca9673545dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_f432c9a9c2a4218dcde2290bf336b1845cd7b7fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_9f456d88ff203a5d762d5ff04f0cc1704526f12a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_d5c4b1210b626751e1e33bba286f3eb0e8d3ce59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_0cd04b034ca51ca498d50a9c24d891077d5ba176\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.0.0_d3bbe62aeca86b22c415d9f6d3f3a732dded273f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_b5c967fa4c314b27c0098cb9ea37fee7d9d1db1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_384966ffc48063cb5b975eeee9af340bcb0383b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_299d5106587b669e55b02ac86ad133f60fdb1d03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.github.nirhart\parallaxscroll\1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2574796fab3c6145ca6170821badd305f5e03669">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.nirhart-parallaxscroll-1.0_94924d9d3b51cce6f0df7f18798fa8743df3a79c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_55b74d07754478f4bb5c02d7c21ee0391fad300c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_c1859eb252a3c2d8d42b72cc93487182a0911d05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_172475073fdf53efe142127361c05e7bca736431\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_b2c776fad5feccb0c0056098024bcd7a6194c28e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_fc9aee4bf8687811550867417f89803b464f3691\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_4baac6093d1be625771f050c336d65f379db98ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_cb7b1da75a956c18f2dc37b7c68af7094c7c8882\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_069244101430d9f0474de23e8d33fed23cff8cad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_f97471fad4521e5b7818c137104199b97a35b5f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -84,30 +309,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_2aea59688f29e81abe029285a47cbe97d188806f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_c6f01cb09073ab9b2775653c5949674899823f0a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_fa9c351b5cac9e265b7190dbe00af18dc4e60080\classes.dex" />
+        sha1="1dcb8005f460d87baed0abdc9ec997a58797856e">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_c9be359fbf347891b682f19030137e34fa6a29c7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,24 +327,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_d6fb10967908d8bac2056746d0ac8ba981d270e5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_f5ada2e6f0236568a86cb75dda0a06cf23651f00\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -147,21 +336,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_c08fae269be53bd479612e7aa78524d1160b2bba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_36d2013408dd1b5eb98a01fe24acebca6cb81d34\classes.dex" />
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_54d490b44eab5ec4f0e6cd02651db029fcd1397b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,21 +354,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_d553ceaa6563848ad56ebcfc047328d6d14fa5d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="079d438292bfe61f58e83417157621074c5151e7">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_01a80a57288462df51d922e68dbbfca9673545dc\classes.dex" />
+        sha1="6bf34c4b4fcd3f6913eca652d13c51dbde51c3a4">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-24.2.0_38f0255388985d4af255d0c338b10abe7b66b093\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -219,15 +390,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="1d193729baf37df3d902a423291423a0df7e3779">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_9f456d88ff203a5d762d5ff04f0cc1704526f12a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -237,30 +399,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jar="C:\Users\hitesh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_94a7152340d7e923ffcf1b883abbaab8237614f5\classes.dex" />
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_d3c6fa911b3ac3adacef58ed71a05be5dacabf8a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_56d6b5015dd1c9ad07a82a041435d87298138637\classes.dex" />
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_9b2675f5025a3a3b79f8a2182e690d1cfdec76a1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\classes.jar"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-23.4.0_fa62ee529be6c9e43cfdfcbd2c7b5448eed19d3f\classes.dex" />
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_718180663ef46b97d87fbab7c3a064a669a66af3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -273,21 +435,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\jars\classes.jar"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.0.0_d3bbe62aeca86b22c415d9f6d3f3a732dded273f\classes.dex" />
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_9769eea080e4d978e36794fd4fb59a21327627d5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_9f628e49a3420febdf2f1f55272d3adb4c090d4e\classes.dex" />
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.0_d8f561e93c354d9efdc51c1019610abac2a323a1\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -309,24 +471,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_3746e22fbdbc1d77abdca3f498ed2d4bd8d7303c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_299d5106587b669e55b02ac86ad133f60fdb1d03\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -336,84 +480,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_81fd19f4aa3136321f5bf1bc94a5f0e7e0f5c1bc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="a3a58265cc2e62cfeca729636dd703e4de3770dd">
+        sha1="34447d216d98214b7289ffa34c054f9deda167d4">
         <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4612a87990f07f1639f67229e9cbf758f4fdf296\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.github.nirhart\parallaxscroll\1.0\jars\classes.jar"
+        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="2574796fab3c6145ca6170821badd305f5e03669">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.nirhart-parallaxscroll-1.0_94924d9d3b51cce6f0df7f18798fa8743df3a79c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_55b74d07754478f4bb5c02d7c21ee0391fad300c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_b2c776fad5feccb0c0056098024bcd7a6194c28e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_fc9aee4bf8687811550867417f89803b464f3691\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_9ade0d99ae5f07543f6725c37089c8ceccb7ff4e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_4baac6093d1be625771f050c336d65f379db98ec\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
-        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_9a759b374bb210c7c00adc16e6742fe8b0521ecd\classes.dex" />
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\hitesh\Desktop\capstone\ExpertTravel\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_9f284fbdfcc1a3f8f8fb9c7b204a35a0c1af20f1\classes.dex" />
     </item>
 
 </items>
